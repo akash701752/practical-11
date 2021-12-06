@@ -19,12 +19,20 @@ class B : public A
      void display()
      {
        x = 10 ; // Inheritance b/c x,y are data members of Class A
-       //y = 20 ; // Inheritance b/c x,y are data members of Class A
        //z = 30 ; // Wrong b/c z is Private member of Class A
        cout<<"X = "<<x <<endl ;
        //cout<<"Y = "<<y <<endl ;
        //cout<<"Z = "<<z <<endl ;
      }
+};
+class C : public B
+{
+  public :
+   void display()
+   {
+      y = 20 ; // Inheritance b/c x,y are data members of Class A
+     cout<<"Value of Y = "<<y ;
+   }
 };
 int main()
 {
@@ -35,5 +43,8 @@ int main()
                    // object of Child class of Class B .
     
     obj.display(); 
+    C obj2 ;
+    obj2.display() ;
+    
     return 0;
 }
