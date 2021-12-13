@@ -1,4 +1,4 @@
-// Practical 11 lab 06/12/2021
+// Practical  lab 06/12/2021
 // Task 3 : Diamond Problem .
 #include <iostream>
 
