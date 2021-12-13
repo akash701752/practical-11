@@ -1,5 +1,5 @@
 // Practical 11 lab 06/12/2021
-// Task b : Complete Implementation of Access Inheritance .
+// Task : Complete Implementation of Access Inheritance .
 #include <iostream>
 
 using namespace std;
