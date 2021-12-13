@@ -1,5 +1,5 @@
 // Practical  lab 06/12/2021
-// Task 2 : Diamond Problem Solution.
+// Task  : Diamond Problem Solution.
 #include <iostream>
 
 using namespace std;
